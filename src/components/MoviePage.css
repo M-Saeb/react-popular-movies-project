@@ -27,11 +27,11 @@
 }
 
 .movie-cast-container {
+  margin: 0 60px;
   min-width: 100%;
   max-width: 1000px;
   display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
+  flex-wrap: wrap;
 }
 
 .movie-cast-container .card {
